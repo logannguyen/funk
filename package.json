@@ -1,6 +1,6 @@
 {
   "version": "0.1.1",
-  "license": "MIT",
+  "license": "LG",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -34,7 +34,7 @@
     "trailingComma": "es5"
   },
   "name": "@logannguyen/funk",
-  "author": "Robert Broersma",
+  "author": "Logan Nguyen",
   "module": "dist/funk.esm.js",
   "size-limit": [
     {
