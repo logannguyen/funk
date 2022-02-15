@@ -33,7 +33,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@statikly/funk",
+  "name": "@logannguyen/funk",
   "author": "Robert Broersma",
   "module": "dist/funk.esm.js",
   "size-limit": [
