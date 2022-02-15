@@ -224,7 +224,11 @@ export function TabList({ as: Component = 'div', ...props }: TabListProps) {
   useEffect(() => {
     tabListRef.current.addEventListener('keyup', handleKeyUp)
 
-    return () => tabListRef.current.removeEventListener('keyup', handleKeyUp)
+    return () => {
+      if (tabListRef && tabListRef.current) {
+        tabListRef.current.removeEventListener('keyup', handleKeyUp)
+      }
+    }
   }, [handleKeyUp])
 
   // @ts-ignore
